@@ -1,0 +1,16 @@
+{
+  "name": "bank-wallet-application",
+  "version": "1.0.0",
+  "description": "This application is to maintain Wallets in the bank",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Gowthaman R",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.0",
+    "ulid": "^2.3.0"
+  }
+}
