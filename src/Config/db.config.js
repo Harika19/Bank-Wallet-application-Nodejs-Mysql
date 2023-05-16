@@ -1,8 +1,8 @@
 const dbConfig = {
-    HOST: 'localhost',
-    USER: 'root',
-    PASSWORD: 'rootroot',
-    DATABASE: 'WALLET'
+    HOST: 'sql.freedb.tech',
+    USER: 'freedb_wallet-user',
+    PASSWORD: '869jda7pWfeD@mf',
+    DATABASE: 'freedb_WALLET'
 }
 
 module.exports = dbConfig
