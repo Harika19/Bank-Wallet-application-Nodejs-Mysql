@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js"
   },
-  "author": "Gowthaman R",
+  "author": "Harika Puppala",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
