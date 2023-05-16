@@ -7,10 +7,10 @@ async function dbConnection() {
     if (!connection) {
         try {
             connection = await mysql.createConnection({
-                host: process.env.DB_HOST || dbConfig.HOST,
-                user: process.env.DB_USER || dbConfig.USER,
-                password: process.env.DB_PASSWORD || dbConfig.PASSWORD,
-                database: process.env.DB_NAME || dbConfig.DATABASE
+                host: dbConfig.HOST,
+                user: dbConfig.USER,
+                password: dbConfig.PASSWORD,
+                database: dbConfig.DATABASE
             });
 
             console.log(' Connection created ');

@@ -21,9 +21,9 @@ class createResource {
     static async createDatabase() {
         try {
             const connection = await mysql.createConnection({
-                host: process.env.DB_HOST || dbConfig.HOST,
-                user: process.env.DB_USER || dbConfig.USER,
-                password: process.env.DB_PASSWORD || dbConfig.PASSWORD
+                host: dbConfig.HOST,
+                user: dbConfig.USER,
+                password: dbConfig.PASSWORD
             });
 
             const response = await connection.query(WALLET_DATABASE)
